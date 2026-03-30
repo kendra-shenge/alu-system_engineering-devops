@@ -1,0 +1,1 @@
+This directory contains scripts for web server configuration and file transfer.
