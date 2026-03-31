@@ -26,8 +26,8 @@ frontend http_front
 
 backend http_back
     balance roundrobin
-    server 7063-web-01 44.201.204.119:80 check
-    server 7063-web-02 3.91.200.7:80 check
+    server web-01 44.201.204.119:80 check
+    server web-02 3.91.200.7:80 check
 EOF
 
 service haproxy restart
